@@ -26,7 +26,7 @@ SECRET_KEY = '2mc)gaqr_zc4(yh_=iifip8!f&&drp#k((2v(saf4afpnlf9m@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']  # For production, replace with your Render domain
 
 
 # Application definition
